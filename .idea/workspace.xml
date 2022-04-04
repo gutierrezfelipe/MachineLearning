@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39ef920b-136f-4a7f-8585-73fa98d55d1a" name="Default Changelist" comment="First corrections">
+    <list default="true" id="39ef920b-136f-4a7f-8585-73fa98d55d1a" name="Default Changelist" comment="Perceptron an Logistic Regression (L1) tested on assignment 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment/Assignment1/assignment1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/Assignment1/assignment1.py" afterDir="false" />
     </list>
@@ -173,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649032545827</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Perceptron an Logistic Regression (L1) tested on assignment 1">
+      <created>1649112861269</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649112861269</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,7 +211,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial setup" />
     <MESSAGE value="First corrections" />
-    <option name="LAST_COMMIT_MESSAGE" value="First corrections" />
+    <MESSAGE value="Perceptron an Logistic Regression (L1) tested on assignment 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Perceptron an Logistic Regression (L1) tested on assignment 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
