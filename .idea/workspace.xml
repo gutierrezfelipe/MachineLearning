@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39ef920b-136f-4a7f-8585-73fa98d55d1a" name="Default Changelist" comment="First corrections">
-      <change afterPath="$PROJECT_DIR$/Assignment/Assignment1/assignment1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/Assignment1/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment/Assignment1/train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_environment_check.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/Assignment1/assignment1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/Assignment1/assignment1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
