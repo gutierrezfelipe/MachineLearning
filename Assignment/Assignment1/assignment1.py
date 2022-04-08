@@ -15,6 +15,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import   KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
+from sklearn.base import clone
+from itertools import combinations
 from sklearn.feature_selection import SelectFromModel
 
 
@@ -138,7 +140,7 @@ for dataset in data:
     dataset['Sex'] = dataset['Sex'].map(genders)
 
 
-# Dropping Ticket as it is unuseful
+# Dropping Ticket as it is useless
 df_train = df_train.drop(['Ticket'], axis=1)
 df_test = df_test.drop(['Ticket'], axis=1)
 
@@ -203,7 +205,7 @@ lr.fit(X_train, Y_train)
 print('Training accuracy:', lr.score(X_train, Y_train))
 print('Test accuracy:', lr.score(X_test, Y_test))
 
-'''
+
 # KNN
 knn = KNeighborsClassifier(n_neighbors=5)
 
@@ -221,4 +223,4 @@ plt.xlabel('Number of features')
 plt.grid()
 plt.tight_layout()
 plt.show()
-'''
+

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39ef920b-136f-4a7f-8585-73fa98d55d1a" name="Default Changelist" comment="Perceptron an Logistic Regression (L1) tested on assignment 1">
+    <list default="true" id="39ef920b-136f-4a7f-8585-73fa98d55d1a" name="Default Changelist" comment="Corrections and assignment1 beginning">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignment/Assignment1/assignment1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/Assignment1/assignment1.py" afterDir="false" />
     </list>
