@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39ef920b-136f-4a7f-8585-73fa98d55d1a" name="Default Changelist" comment="Organizing and making public">
+    <list default="true" id="39ef920b-136f-4a7f-8585-73fa98d55d1a" name="Default Changelist" comment="Submitting first assignment">
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment2/assignment2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment2/wine.data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment/Assignment1/assignment1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment/Assignment1/assignment1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/Assignment1/assignment1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment1/assignment1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/Assignment1/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment1/test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment/Assignment1/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment1/train.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +39,14 @@
       <recent name="E:\PycharmProjects\MachineLearning\Assignment\Assignment1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.assignment1">
+  <component name="RunManager" selected="Python.assignment2">
     <configuration name="assignment1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignment/Assignment1" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -48,6 +55,27 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignment/Assignment1/assignment1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="assignment2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MachineLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignments/Assignment2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignments/Assignment2/assignment2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -140,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.assignment2" />
         <item itemvalue="Python.assignment1" />
         <item itemvalue="Python.assignment1" />
         <item itemvalue="Python.ch04" />
         <item itemvalue="Python.ch03" />
-        <item itemvalue="Python.ch02" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649451210369</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Submitting first assignment">
+      <created>1649639028317</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649639028317</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,7 +253,8 @@
     <MESSAGE value="First corrections" />
     <MESSAGE value="Perceptron an Logistic Regression (L1) tested on assignment 1" />
     <MESSAGE value="Organizing and making public" />
-    <option name="LAST_COMMIT_MESSAGE" value="Organizing and making public" />
+    <MESSAGE value="Submitting first assignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Submitting first assignment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
