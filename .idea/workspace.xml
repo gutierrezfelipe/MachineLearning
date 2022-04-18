@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39ef920b-136f-4a7f-8585-73fa98d55d1a" name="Default Changelist" comment="Submitting first assignment">
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment2/assignment2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment2/wine.data" afterDir="false" />
+    <list default="true" id="39ef920b-136f-4a7f-8585-73fa98d55d1a" name="Default Changelist" comment="Assignment 1 - End of Class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment/Assignment1/assignment1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment1/assignment1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment/Assignment1/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment1/test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignment/Assignment1/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment1/train.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment2/assignment2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment2/assignment2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +12,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="27JFRfzislofPWolGivM5EunMgg" />
   <component name="ProjectLevelVcsManager">

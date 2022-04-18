@@ -31,6 +31,7 @@ from sklearn import tree
 from sklearn.tree import DecisionTreeClassifier
 from pydotplus import graph_from_dot_data
 from sklearn.tree import export_graphviz
+from sklearn.decomposition import PCA
 from sklearn.ensemble import RandomForestClassifier
 
 
@@ -147,5 +148,164 @@ sc = StandardScaler()
 X_std = sc.fit_transform(X)
 
 # Splitting the data into 70% training and 30% test subsets
-X_train, X_test, y_train, y_test =     train_test_split(X, y, test_size=0.3, stratify=y, random_state=0)
+X_train, X_test, Y_train, Y_test = train_test_split(X, y, test_size=0.3, stratify=y, random_state=0)
 
+## Evaluating Classifiers
+# Decision Tree
+print('\nDecision Tree')
+tree_model = DecisionTreeClassifier(criterion='gini', max_depth=4, random_state=1)
+
+tree_model.fit(X_train, Y_train)
+#plot_decision_regions(X_train, Y_train, classifier=tree_model, test_idx=range(105, 150))
+#plt.xlabel('')
+#plt.ylabel('')
+#plt.legend(loc='upper left')
+#plt.tight_layout()
+#plt.show()
+
+#y_pred_tree = tree_model.predict(X_test[:, 0:2])
+Y_pred_tree = tree_model.predict(X_test)
+print('Training accuracy:', tree_model.score(X_train, Y_train))
+print('Test accuracy:', tree_model.score(X_test, Y_test))
+
+# SVM Linear Kernel
+print('\nSVM Linear')
+svm = SVC(kernel='linear', random_state=1, C=10.0)
+svm.fit(X_train, Y_train)
+#plot_decision_regions(X_train[:, 0:2], Y_train, classifier=svm)
+#plt.legend(loc='upper left')
+#plt.tight_layout()
+#plt.show()
+
+Y_pred = svm.predict(X_test)
+print('Training accuracy:', svm.score(X_train, Y_train))
+print('Test accuracy:', svm.score(X_test, Y_test))
+
+
+# SVM Gaussian Kernel
+print('\nSVM Gaussian Kernel')
+svm = SVC(kernel='rbf', random_state=1, gamma=0.0005, C=10.0)
+svm.fit(X_train, Y_train)
+#plot_decision_regions(X_train[:, 0:2], Y_train, classifier=svm)
+#plt.legend(loc='upper left')
+#plt.tight_layout()
+#plt.show()
+
+Y_pred = svm.predict(X_test)
+print('Training accuracy:', svm.score(X_train, Y_train))
+print('Test accuracy:', svm.score(X_test, Y_test))
+
+
+# Random Forest
+print('\nRandom Forest')
+random_forest = RandomForestClassifier(n_estimators=100)
+random_forest.fit(X_train, Y_train)
+Y_pred = random_forest.predict(X_test)
+print('Training accuracy:', random_forest.score(X_train, Y_train))
+print('Test accuracy:', random_forest.score(X_test, Y_test))
+
+'''
+## Eigenvalues decomposition of the covariance matrix
+cov_mat = np.cov(X_train.T)
+eigen_vals, eigen_vecs = np.linalg.eig(cov_mat)
+
+print('\nEigenvalues \n', eigen_vals)
+
+
+## Total and explained variance
+tot = sum(eigen_vals)
+var_exp = [(i / tot) for i in sorted(eigen_vals, reverse=True)]
+cum_var_exp = np.cumsum(var_exp)
+
+plt.bar(range(1, 14), var_exp, align='center', label='Individual explained variance')
+plt.step(range(1, 14), cum_var_exp, where='mid', label='Cumulative explained variance')
+plt.ylabel('Explained variance ratio')
+plt.xlabel('Principal component index')
+plt.legend(loc='best')
+plt.tight_layout()
+plt.show()
+'''
+
+'''
+### Principal Component Analysis
+## Feature transformation
+# Make a list of (eigenvalue, eigenvector) tuples
+eigen_pairs = [(np.abs(eigen_vals[i]), eigen_vecs[:, i]) for i in range(len(eigen_vals))]
+# Sort the (eigenvalue, eigenvector) tuples from high to low
+eigen_pairs.sort(key=lambda k: k[0], reverse=True)
+
+w = np.hstack((eigen_pairs[0][1][:, np.newaxis],
+               eigen_pairs[1][1][:, np.newaxis]))
+print('Matrix W:\n', w)
+
+X_train[0].dot(w)
+
+
+
+
+X_train_pca = X_train.dot(w)
+colors = ['r', 'b', 'g']
+markers = ['o', 's', '^']
+
+for l, c, m in zip(np.unique(Y_train), colors, markers):
+    plt.scatter(X_train_pca[Y_train == l, 0],
+                X_train_pca[Y_train == l, 1],
+                c=c, label=f'Class {l}', marker=m)
+
+plt.xlabel('PC 1')
+plt.ylabel('PC 2')
+plt.legend(loc='lower left')
+plt.tight_layout()
+# plt.savefig('figures/05_03.png', dpi=300)
+plt.show()
+'''
+
+'''
+### Principal Component Analysis
+pca = PCA()
+X_train_pca = pca.fit_transform(X_train)
+pca.explained_variance_ratio_
+
+plt.bar(range(1, 14), pca.explained_variance_ratio_, align='center')
+plt.step(range(1, 14), np.cumsum(pca.explained_variance_ratio_), where='mid')
+plt.ylabel('Explained variance ratio')
+plt.xlabel('Principal components')
+plt.show()
+
+pca = PCA(n_components=5)
+X_train_pca = pca.fit_transform(X_train)
+X_test_pca = pca.transform(X_test)
+
+plt.scatter(X_train_pca[:, 0], X_train_pca[:, 1])
+plt.xlabel('PC 1')
+plt.ylabel('PC 2')
+plt.show()
+
+
+# Training decision tree classifier using the first 2 principal components.
+pca = PCA(n_components=2)
+X_train_pca = pca.fit_transform(X_train)
+X_test_pca = pca.transform(X_test)
+
+tree_model = DecisionTreeClassifier(criterion='gini', max_depth=4, random_state=1)
+
+tree_model.fit(X_train_pca, Y_train)
+
+plot_decision_regions(X_train_pca, Y_train, classifier=tree_model)
+plt.xlabel('PC 1')
+plt.ylabel('PC 2')
+plt.legend(loc='lower left')
+plt.tight_layout()
+plt.show()
+
+plot_decision_regions(X_test_pca, Y_test, classifier=tree_model)
+plt.xlabel('PC 1')
+plt.ylabel('PC 2')
+plt.legend(loc='lower left')
+plt.tight_layout()
+plt.show()
+
+pca = PCA(n_components=None)
+X_train_pca = pca.fit_transform(X_train)
+pca.explained_variance_ratio_
+'''
