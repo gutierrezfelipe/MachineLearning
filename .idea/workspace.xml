@@ -1,9 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39ef920b-136f-4a7f-8585-73fa98d55d1a" name="Default Changelist" comment="Assignment 1 - End of Class">
+    <list default="true" id="39ef920b-136f-4a7f-8585-73fa98d55d1a" name="Default Changelist" comment="Assignment 2 - End of Class">
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Test/0.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Test/1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Test/2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Test/3.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Test/4.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Test/5.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-01-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-02-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-03-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-04-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-05-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-06-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-08-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-09-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-10-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-11-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-12-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-14-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-15-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-16-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-17-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-18-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-19-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-20-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-21-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-22-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-23-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-25-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-26-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-27-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-28-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-29-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-30-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-31-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-32-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-33-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-35-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-36-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-37-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/ADL/Train/adl-39-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Test/10.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Test/11.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Test/6.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Test/7.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Test/8.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Test/9.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-01-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-02-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-03-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-04-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-05-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-06-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-07-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-08-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-10-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-11-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-12-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-14-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-15-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-16-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-18-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-19-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-20-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-21-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-23-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-24-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-26-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-27-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-29-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/Fall/Train/fall-30-acc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment3/assignment3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment4/assignment4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Final Project/full_waveform_inversion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment2/assignment2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment2/assignment2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +115,7 @@
       <recent name="E:\PycharmProjects\MachineLearning\Assignment\Assignment1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.assignment2">
+  <component name="RunManager" selected="Python.assignment3">
     <configuration name="assignment1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,7 +158,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="assignment3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MachineLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,11 +166,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Assignments/Assignment3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch02/ch02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Assignments/Assignment3/assignment3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.assignment3" />
         <item itemvalue="Python.assignment2" />
         <item itemvalue="Python.assignment1" />
         <item itemvalue="Python.assignment1" />
         <item itemvalue="Python.ch04" />
-        <item itemvalue="Python.ch03" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649639028317</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Assignment 2 - End of Class">
+      <created>1650322808711</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650322808711</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,7 +337,8 @@
     <MESSAGE value="Perceptron an Logistic Regression (L1) tested on assignment 1" />
     <MESSAGE value="Organizing and making public" />
     <MESSAGE value="Submitting first assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Submitting first assignment" />
+    <MESSAGE value="Assignment 2 - End of Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 2 - End of Class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
